@@ -1,4 +1,10 @@
-h1{
+
+.main{
+    justify-content: center;
     text-align: center;
+}
+h1{
     font-weight: bold;
+    padding-top: 15px;
+
 }
