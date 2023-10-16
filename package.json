@@ -1,0 +1,12 @@
+{
+  "name": "my-portfolio",
+  "version": "1.0.0",
+  "description": "UI &amp; Web Developer - I am a creative and passionate full stack ui developer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
