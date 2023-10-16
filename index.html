@@ -13,19 +13,96 @@
             justify-content: center;
             text-align: center;
         }
+        .body{
+            display: flex;
+            justify-content: space-around;
+        }
         h1{
             font-weight: bold;
             padding-top: 15px;
 
         }
+        .imag{
+            margin-top: 7%;
+            margin-right: 10%;
+            border: 1px solid blue;
+            box-shadow: 10px 10px 10px blue;
+            
+        }
+        .top-nav{
+            background: blue;
+            display: flex;
+            padding: 10px;
+            margin-left: 40%;
+            padding-left: 40px;
+            padding-right: 40px;
+        }
+        .text{
+            margin-top: 10%;
+        }
+        .button{
+            padding: 50px;
+        }
+        .social-media{
+            margin-top: 40px;
+        }
+        a{
+            color: blue;
+        }
+        span{
+            padding: 30px;
+            color: blue;
+            font-size: 27px;
+
+        }
+        h3{
+            margin-top: 40px;
+        }
     </style>
 </head>
 <body class="container-fluid">
     <div class="main">
-        <h1>UI & Web-Developer</h1>
-        <img src="./public/images/profile1.jpg" width="300" height="300">
-        <h5>Myself Vijay gadela, i'm a creative and passionate ui&web developer</h5>
-        <p>My Skills : HTML , CSS, Bootstrap, Figma..</p>
+        <div class="navbar navbar-expand-lg bg-dark navbar-dark p-3">
+            <div class="container-fluid">
+                <button class="navbar-toggler" data-bs-target="#menu" data-bs-toggle="collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="top-nav">
+                    <h1 class="navbar-brand">Mr.Vijay.</h1>
+                    <div class="navbar-collapse collapse" id="menu">
+                        <ul class="navbar-nav">
+                            <li class="nav-item"><a class="nav-link">Home</a></li>
+                            <li class="nav-item"><a class="nav-link" href="Resume-GadelaVijayKumar.pdf">Resume</a></li>
+                            <li class="nav-item"><a class="nav-link">MyWorks</a></li>
+                            <li class="nav-item"><a class="nav-link">Blog</a></li>
+                            <li class="nav-item"><a class="nav-link">Pages</a></li>
+                            <li class="nav-item input-group">
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="body">
+            <div class="text">
+                <h1>UI & Web-Developer</h1>
+                <h5>Myself Vijay gadela, i'm a creative and passionate ui&web developer</h5>
+                <p>My Skills : HTML , CSS, Bootstrap, Figma..</p>
+                <a href="Resume-GadelaVijayKumar.pdf"><button type="button" class="btn btn-primary">Hire Me</button></a>
+                <div class="social-media">
+                    <span ><a class="bi bi-whatsapp" href="https://www.whatsapp.com/+917893144690"></a></span>
+                    <span ><a class="bi bi-linkedin" href="https://www.linkedin.com/in/vijay-kumar-g-a53397226"></a></span>
+                    <span ><a class="bi bi-github" href="https://github.com/vijaygadela17"></a></span>
+                    <span ><a class="bi bi-instagram" href="https://instagram.com/vijay.universe_17?igshid=OGQ5ZDc2ODk2ZA=="></a></span>
+                </div>
+                <div><h3>Let's connect<span class="bi bi-chevron-bar-right"></span></h3> </div>
+            </div>
+            <div class="imag">
+                <img src="./public/images/profile1.jpg" width="400px" height="400px">
+            </div>
+        </div>
     </div>
+       
+
 </body>
 </html>
