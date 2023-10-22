@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landkit</title>
+    <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" media="only screen and (max-width: 600px)" href="mobile.css" />
+    <link rel="stylesheet" media="only screen and (min-width: 601px)" href="desktop.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <style>
+        header {
+            font-family: arial;
+            font-size: 25px;
+            display: flex;
+            justify-content: space-around;
+            padding: 20px 10px; /* Adjusted padding for mobile */
+        }
+        header .brand-title {
+            font-family: arial;
+            font-size: 30px;
+            color: blue;
+            font-weight: bold;
+        }
+        nav span {
+            margin-right: 20px; /* Reduced margin for mobile */
+            color: gray;
+            font-size: 15px;
+        }
+        span:hover {
+            color: blue;
+        }
+        button {
+            background-color: blue;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            width: 80px;
+            font-size: 15px;
+        }
+        img {
+            padding-top: 2px;
+            padding-right: 10px; /* Adjusted padding for mobile */
+            margin-top: -100px;
+            max-width: 100%; /* Ensure the image doesn't overflow its container */
+        }
+        .main-head {
+            margin: 20px 10px; /* Adjusted margin and padding for mobile */
+        }
+        .main-title {
+            margin: 0;
+            font-size: 30px;
+        }
+        .main-subtitle {
+            font-size: 14px; /* Adjusted font size for mobile */
+            color: gray;
+        }
+        .main-buttons {
+            margin: 20px 0; /* Adjusted margin for mobile */
+        }
+        .btn-pages, .btn-doc {
+            font-size: 16px;
+            font-family: arial;
+            padding: 10px;
+            width: 120px;
+            border: none;
+        }
+        .btn-doc {
+            background-color: lightblue;
+            color: blue;
+        }
+        .head-title {
+            color: blue;
+        }
+    </style>
+
+    <!-- Media Query for Mobile -->
+    <style>
+        @media screen and (max-width: 600px) {
+            header {
+                padding: 20px 5px; /* Further reduced padding for smaller screens */
+            }
+            nav span {
+                margin-right: 10px; /* Further reduced margin for smaller screens */
+                font-size: 14px; /* Adjusted font size for smaller screens */
+            }
+            button {
+                padding: 8px;
+                width: 70px; /* Adjusted button width for smaller screens */
+                font-size: 14px; /* Adjusted font size for smaller screens */
+            }
+            img {
+                padding-right: 5px; /* Further reduced padding for smaller screens */
+            }
+            .main-head {
+                margin: 10px 5px; /* Further reduced margin and padding for smaller screens */
+            }
+            .main-title {
+                font-size: 24px; /* Adjusted font size for smaller screens */
+            }
+            .main-subtitle {
+                font-size: 12px; /* Adjusted font size for smaller screens */
+            }
+            .btn-pages, .btn-doc {
+                font-size: 14px; /* Adjusted font size for smaller screens */
+                padding: 8px;
+                width: 100px; /* Adjusted button width for smaller screens */
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div>
+            <span class="brand-title">Landkit.</span>
+        </div>
+        <div>
+            <nav>
+               <span>Landings</span> 
+               <span>Pages</span>
+               <span>Accounts</span>
+               <span>Templates</span>
+            </nav>
+        </div>
+        <div>
+            <button>Buy now</button>
+        </div>
+    </header>
+    <section>
+        <main>
+            <img src="./images/img-l.png" align="right" width="100%" height="">
+            <div class="main-head">
+                <div class="main-title">
+                    Welcome to <span class="head-title">Landkit.</span><br>
+                    Develop anything.
+                </div>
+                <div class="main-subtitle">
+                    Build a beautiful, modern website with flexible Bootstrap components built from scratch.
+                </div>
+                <div class="main-buttons">
+                    <button class="btn-pages">View pages<span class="bi bi-arrow-right"></span></button>
+                    <button class="btn-doc">Documentation</button>
+                </div>
+            </div>
+        </main>
+    </section>
+</body>
+</html>

@@ -3,10 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Landkit</title>
     <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
     <link rel="stylesheet" media="only screen and (max-width: 600px)" href="mobile.css" />
     <link rel="stylesheet" media="only screen and (min-width: 601px)" href="desktop.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <style>
         header{
             font-family: arial;
@@ -47,7 +48,6 @@
             padding-top: 2px;
             padding-right: 100px;
             margin-top: -100px;
-            overflow-x: hidden;
         }
         .main-head{
             margin-left: 280px;
@@ -88,6 +88,39 @@
 
 
     </style>
+    <style>
+      @media screen and (max-width: 600px) {
+          header {
+              padding: 20px 5px; /* Further reduced padding for smaller screens */
+          }
+          nav span {
+              margin-right: 10px; /* Further reduced margin for smaller screens */
+              font-size: 14px; /* Adjusted font size for smaller screens */
+          }
+          button {
+              padding: 8px;
+              width: 70px; /* Adjusted button width for smaller screens */
+              font-size: 14px; /* Adjusted font size for smaller screens */
+          }
+          img {
+              padding-right: 5px; /* Further reduced padding for smaller screens */
+          }
+          .main-head {
+              margin: 10px 5px; /* Further reduced margin and padding for smaller screens */
+          }
+          .main-title {
+              font-size: 24px; /* Adjusted font size for smaller screens */
+          }
+          .main-subtitle {
+              font-size: 12px; /* Adjusted font size for smaller screens */
+          }
+          .btn-pages, .btn-doc {
+              font-size: 14px; /* Adjusted font size for smaller screens */
+              padding: 8px;
+              width: 100px; /* Adjusted button width for smaller screens */
+          }
+      }
+    </style>
 </head>
 <body>
     <header>
@@ -99,7 +132,7 @@
                <span>Landings</span> 
                <span>Pages</span>
                <span>Accounts</span>
-               <span>Landings</span>
+               <span>Templates</span>
             </nav>
         </div>
         <div>
@@ -132,6 +165,5 @@
         </div>
         
     </section>
-    
 </body>
 </html>
