@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" media="only screen and (max-width: 600px)" href="mobile.css" />
+    <link rel="stylesheet" media="only screen and (min-width: 601px)" href="desktop.css" />
+    <style>
+        header{
+            font-family: arial;
+            font-size: 25px;
+            display: flex;
+            justify-content: space-around;
+            padding-top: 20px;
+            padding-left: 200px;
+            padding-right: 200px;
+        }
+        header .brand-title{
+            font-family: arial;
+            font-weight: 30px;
+            color: blue;
+            font-weight: bold;
+        }
+        nav span{
+            margin-right: 40px;
+            color: gray;
+            font-size: 15px;
+            
+
+        }
+        span:hover{
+            color: blue;
+        }
+        button{
+            background-color: blue;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            width: 80px;
+            font-size: 15px;
+            
+        }
+        img{
+            padding-top: 2px;
+            padding-right: 100px;
+            margin-top: -100px;
+            overflow-x: hidden;
+        }
+        .main-head{
+            margin-left: 280px;
+            margin-top: 240px ;
+        }
+        .main-title{
+            margin-left: px;
+            margin-top: 50px;
+            font-size: 50px;
+            font-family: arial;
+        }
+        .main-subtitle{
+            font-family: arial;
+            font-size: 20px;
+            margin-top: 20px;
+            line-height: 20px;
+            color: gray;
+        }
+        .main-buttons{
+            margin-top: 50px;
+           
+        }
+        .btn-pages, .btn-doc{
+            font-size: 20px;
+            font-family: arial;
+            padding: 15px;
+            width: 170px;
+            border: none;
+        }
+        .btn-doc{
+            background-color: lightblue;
+            color: blue;
+
+        }
+        .head-title{
+            color: blue;
+        }
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <div>
+            <span class="brand-title">Landkit.</span>
+        </div>
+        <div>
+            <nav>
+               <span>Landings</span> 
+               <span>Pages</span>
+               <span>Accounts</span>
+               <span>Landings</span>
+            </nav>
+        </div>
+        <div>
+            <button>Buy now</button>
+        </div>
+    </header>
+    <section>
+        <main>
+            <img src="./images/img-l.png" align="right" width="600px" height="">
+            <div class="main-head">
+                <div class="main-title">
+                    Welcome to <span class="head-title">Landkit.</span><br>
+                    Develop anything.
+                </div>
+                <div class="main-subtitle">
+                    Build a beautiful, modern website with flexible Bootstrap components built from scratch.
+                </div>
+                <div class="main-buttons">
+                    <button class="btn-pages">veiw pages<span class="bi bi-arrow-right"></span></button>
+                    <button class="btn-doc">Documentation</button>
+                </div>
+            </div>
+        </main>
+    </section>
+    <section>
+        <div class="container">
+            <div></div>
+            <div></div>
+            <div></div> 
+        </div>
+        
+    </section>
+    
+</body>
+</html>
