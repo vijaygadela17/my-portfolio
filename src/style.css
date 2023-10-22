@@ -342,12 +342,20 @@ img {
   width: 85%;
 }
 
+.skill_bootstrap {
+  width: 85%;
+}
+
 .skill_js {
-  width: 75%;
+  width: 55%;
+}
+
+.skill_figma {
+  width: 85%;
 }
 
 .skill_ui {
-  width: 85%;
+  width: 80%;
 }
 
 /* WORK */
@@ -419,6 +427,12 @@ img {
   font-size: 1.5rem;
   color: #fff;
   margin: 0 var(--mb-2);
+}
+.footer .p .footer_title{
+  font-size: 30px;
+}
+.footer p{
+  font-size: 15px;
 }
 
 @media screen and (min-width: 768px) {
